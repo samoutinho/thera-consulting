@@ -7,13 +7,15 @@ Este repositório contém os links para os projetos de teste de desenvolvimento 
 O projeto está dividido em dois repositórios separados:
 
 ### 🎨 Frontend Test
-- **Repositório**: [thera-consulting-frontend-test](./frontend-test)
+- **Repositório GitHub**: [https://github.com/samoutinho/frontend-test](https://github.com/samoutinho/frontend-test)
+- **Repositório Local**: [./frontend-test](./frontend-test)
 - **Tecnologias**: Next.js, TypeScript, Zustand, Tailwind CSS, MSW
 - **Descrição**: Aplicação web para gerenciamento de produtos com foco em interface moderna e responsiva
 - **Status**: ✅ Implementado com todas as funcionalidades obrigatórias e extras
 
 ### ⚙️ Backend Test
-- **Repositório**: [thera-consulting-backend-test](./backend-test)
+- **Repositório GitHub**: [https://github.com/samoutinho/backend-test](https://github.com/samoutinho/backend-test)
+- **Repositório Local**: [./backend-test](./backend-test)
 - **Tecnologias**: NestJS, TypeScript, PostgreSQL, Clean Architecture, Docker
 - **Descrição**: API RESTful para gerenciamento de produtos e pedidos seguindo princípios SOLID
 - **Status**: ✅ Implementado com todas as funcionalidades obrigatórias e extras
