@@ -22,8 +22,8 @@ O projeto está dividido em dois repositórios separados:
 
 Cada repositório possui suas próprias instruções de instalação e execução. Consulte os README.md específicos de cada projeto:
 
-- [Instruções do Frontend](./frontend-test/README.md)
-- [Instruções do Backend](./backend-test/README.md)
+- [Instruções do Frontend](https://github.com/samoutinho/frontend-test/blob/master/README.md)
+- [Instruções do Backend](https://github.com/samoutinho/backend-test/blob/master/README.md)
 
 ### Inicialização Rápida
 
