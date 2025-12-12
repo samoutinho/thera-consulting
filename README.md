@@ -57,6 +57,20 @@ Desenvolver um sistema completo de gerenciamento de produtos demonstrando:
 - Documentação completa
 - Uso de tecnologias modernas
 
+## 📸 Snapshots de Tela
+
+Este repositório contém snapshots de tela gerados durante os testes automatizados com Playwright. As imagens estão disponíveis na pasta `screenshots/` e documentam o estado visual da aplicação em diferentes momentos do desenvolvimento:
+
+- **Testes de funcionalidades**: Capturas das telas principais (listagem de produtos, formulários, etc.)
+- **Testes de integração**: Verificação visual de componentes e layouts
+- **Validação de UI**: Garantia de que a interface não quebra após alterações
+
+Esses snapshots servem como referência visual e podem ser usados para:
+- Documentação visual da aplicação
+- Comparação antes/depois de alterações
+- Validação de regressões visuais
+- Referência para novos desenvolvedores
+
 ## 📄 Licença
 
 Este projeto é público e está disponível para fins de avaliação técnica.
