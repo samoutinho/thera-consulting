@@ -88,6 +88,66 @@ Esses snapshots servem como referência visual e podem ser usados para:
 - Validação de regressões visuais
 - Referência para novos desenvolvedores
 
+## 🚧 Implementações Futuras
+
+Este projeto foi desenvolvido como uma base sólida para evolução contínua. Abaixo estão as funcionalidades planejadas para futuras versões:
+
+### Arquitetura e Infraestrutura
+- **Multitenancy**: Suporte a múltiplos tenants/clientes com isolamento de dados
+- **CI/CD Pipeline**: Automação de deploy e testes contínuos
+- **Monitoramento e Observabilidade**: Integração com ferramentas de monitoramento (Prometheus, Grafana)
+- **Cache e Performance**: Implementação de cache distribuído (Redis)
+- **Rate Limiting**: Proteção contra abuso de API
+- **Logs Estruturados**: Sistema de logging centralizado e estruturado
+
+### Segurança e Autenticação
+- **Reset de Senha**: Fluxo completo de recuperação de senha via email
+- **Autenticação Multi-fator (MFA)**: Suporte a 2FA/TOTP
+- **Gestão de Permissões**: Sistema de roles e permissões granulares (RBAC)
+- **OAuth2/SSO**: Integração com provedores de autenticação externos
+- **Auditoria**: Log de todas as ações críticas do sistema
+
+### Melhorias de Dados
+- **Categorias como Entidade**: Transformar categoria de texto livre para tabela auxiliar com relacionamentos
+- **Tags e Etiquetas**: Sistema flexível de tags para produtos
+- **Histórico de Alterações**: Versionamento de produtos e rastreamento de mudanças
+- **Soft Delete**: Exclusão lógica de registros com possibilidade de recuperação
+
+### Funcionalidades de Negócio
+- **Carrinho de Compras**: Sistema completo de carrinho e checkout
+- **Sistema de Avaliações**: Reviews e ratings de produtos
+- **Notificações**: Sistema de notificações em tempo real (WebSockets)
+- **Relatórios e Analytics**: Dashboard com métricas e relatórios gerenciais
+- **Exportação de Dados**: Exportação em múltiplos formatos (CSV, Excel, PDF)
+- **Importação em Lote**: Upload de produtos via arquivo CSV/Excel
+
+### Experiência do Usuário
+- **Upload de Imagens**: Upload direto de imagens ao invés de apenas URLs
+- **Busca Avançada**: Busca full-text com filtros complexos
+- **Filtros Salvos**: Salvar e reutilizar combinações de filtros
+- **Tema Escuro/Claro**: Suporte a temas personalizáveis
+- **Internacionalização (i18n)**: Suporte a múltiplos idiomas
+- **PWA**: Transformar em Progressive Web App com suporte offline
+
+### Qualidade e Testes
+- **Testes E2E Abrangentes**: Cobertura completa com Playwright/Cypress
+- **Testes de Performance**: Testes de carga e stress
+- **Testes de Segurança**: Análise de vulnerabilidades automatizada
+- **Cobertura de Testes**: Aumentar cobertura para >80%
+
+### Integrações
+- **Webhooks**: Sistema de webhooks para integrações externas
+- **API GraphQL**: Adicionar endpoint GraphQL além de REST
+- **Integração com Pagamentos**: Integração com gateways de pagamento
+- **Integração com ERP**: Conectores para sistemas ERP populares
+- **Integração com Marketplaces**: Sincronização com marketplaces (Mercado Livre, Amazon, etc.)
+
+### Documentação
+- **Documentação de API Interativa**: Melhorar documentação Swagger/OpenAPI
+- **Guia de Contribuição**: Documentação para contribuidores
+- **Changelog Automatizado**: Sistema de versionamento semântico
+- **Tutoriais e Vídeos**: Material educativo para usuários
+
 ## 📄 Licença
 
 Este projeto é público e está disponível para fins de avaliação técnica.
