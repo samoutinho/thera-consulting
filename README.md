@@ -7,21 +7,39 @@ Este repositório contém os links para os projetos de teste de desenvolvimento 
 O projeto está dividido em dois repositórios separados:
 
 ### 🎨 Frontend Test
-- **Repositório**: [thera-consulting-frontend-test](https://github.com/[seu-usuario]/thera-consulting-frontend-test)
+- **Repositório**: [thera-consulting-frontend-test](./frontend-test)
 - **Tecnologias**: Next.js, TypeScript, Zustand, Tailwind CSS, MSW
 - **Descrição**: Aplicação web para gerenciamento de produtos com foco em interface moderna e responsiva
+- **Status**: ✅ Implementado com todas as funcionalidades obrigatórias e extras
 
 ### ⚙️ Backend Test
-- **Repositório**: [thera-consulting-backend-test](https://github.com/[seu-usuario]/thera-consulting-backend-test)
-- **Tecnologias**: NestJS, TypeScript, PostgreSQL, Clean Architecture
+- **Repositório**: [thera-consulting-backend-test](./backend-test)
+- **Tecnologias**: NestJS, TypeScript, PostgreSQL, Clean Architecture, Docker
 - **Descrição**: API RESTful para gerenciamento de produtos e pedidos seguindo princípios SOLID
+- **Status**: ✅ Implementado com todas as funcionalidades obrigatórias e extras
 
 ## 🚀 Como Começar
 
 Cada repositório possui suas próprias instruções de instalação e execução. Consulte os README.md específicos de cada projeto:
 
-- [Instruções do Frontend](./frontend-test/README.md) (quando disponível)
-- [Instruções do Backend](./backend-test/README.md) (quando disponível)
+- [Instruções do Frontend](./frontend-test/README.md)
+- [Instruções do Backend](./backend-test/README.md)
+
+### Inicialização Rápida
+
+**Backend:**
+```bash
+cd backend-test
+docker-compose up -d
+# ou
+npm install && npm run start:dev
+```
+
+**Frontend:**
+```bash
+cd frontend-test
+npm install && npm run dev
+```
 
 ## 📝 Objetivo
 
