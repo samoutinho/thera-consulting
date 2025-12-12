@@ -57,6 +57,23 @@ Desenvolver um sistema completo de gerenciamento de produtos demonstrando:
 - Documentação completa
 - Uso de tecnologias modernas
 
+## 🆕 Últimas Implementações
+
+### Backend
+- ✅ **Campo imagem em produtos**: Suporte a URLs de imagens externas
+- ✅ **Migration de imagem**: Migration criada e executada para adicionar coluna `imagem` na tabela `products`
+- ✅ **Paginação server-side**: Endpoint de produtos com suporte a `page` e `limit` como query parameters
+
+### Frontend
+- ✅ **Máscara de preço**: Formatação automática de preço durante digitação (R$ 1.234,56)
+- ✅ **Imagens externas**: Suporte a URLs de imagens da internet (configurado no Next.js)
+- ✅ **Melhorias de UX**: Correção de cores dos campos do formulário para melhor visibilidade
+- ✅ **Paginação integrada**: Paginação client-side integrada com backend
+
+### Documentação
+- ✅ **Snapshots de tela**: Imagens de teste do Playwright adicionadas na pasta `screenshots/`
+- ✅ **README atualizado**: Documentação completa das novas funcionalidades
+
 ## 📸 Snapshots de Tela
 
 Este repositório contém snapshots de tela gerados durante os testes automatizados com Playwright. As imagens estão disponíveis na pasta `screenshots/` e documentam o estado visual da aplicação em diferentes momentos do desenvolvimento:
