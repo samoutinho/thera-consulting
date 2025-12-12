@@ -92,3 +92,12 @@ Esses snapshots servem como referência visual e podem ser usados para:
 
 Este projeto é público e está disponível para fins de avaliação técnica.
 
+## 👤 Autor
+
+**Samuel Alves Moutinho**
+
+- 📧 Email: samuca.moutinho@gmail.com
+- 🔗 GitHub: [@samoutinho](https://github.com/samoutinho)
+
+Desenvolvido como parte do teste técnico para Thera Consulting.
+
