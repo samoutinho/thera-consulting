@@ -27,19 +27,26 @@ Cada repositório possui suas próprias instruções de instalação e execuçã
 
 ### Inicialização Rápida
 
-**Backend:**
+**Backend (porta 3001):**
 ```bash
 cd backend-test
 docker-compose up -d
 # ou
 npm install && npm run start:dev
+# Acesse: http://localhost:3001
+# Swagger: http://localhost:3001/api
 ```
 
-**Frontend:**
+**Frontend (porta 3002):**
 ```bash
 cd frontend-test
 npm install && npm run dev
+# Acesse: http://localhost:3002
 ```
+
+**Nota**: As portas foram configuradas para evitar conflitos:
+- Backend: porta 3001
+- Frontend: porta 3002
 
 ## 📝 Objetivo
 
